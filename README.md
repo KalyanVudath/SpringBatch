@@ -6,6 +6,8 @@ e.g cf push -p <path of jar> Spring-Batch
   
 Commands to run the batch in PCF using schedule calls
 
+To run the below commands install the Scheduler for PCF CLI plugin on your local machine
+
 This will create the call 
 cf create-call APP-NAME CALL-NAME URL
 e.g cf create-call Spring-Batch batchStart <routename>/batchService/start
